@@ -1,24 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className='input-stage'>
+        <input /> 
+        <button>추가하기</button>
+      </div>
+      <h1 className='title'>Todo List</h1>
+      <div className='todo-container'>
+        <div className='todo-box'>react를 배워봅시다.</div>
+        <div className='todo-box'>내용</div>
+      </div>
+
+    </>
   );
 }
 
